@@ -2,56 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <title>Pet Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <title>Pet Company</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo"><a href="inicio">Pet Company</a></div>
-            <ul class="links">
-                <li><a href="ofertas">Ofertas</a></li>
-                <li><a href="perros">Perros</a></li>
-                <li><a href="gatos">Gatos</a></li>
-                <li><a href="accesorios">Accesorios</a></li>
-                <li><a href="contacto">Contacto</a></li>
-            </ul>
-            <a href="#" class="action_btn">Inicio Sesion</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#"><span>P</span>et <span>C</span>ompany</a>
+            </div>
+
+            <div class="lists">
+                <ul>
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Perros</a></li>
+                    <li><a href="#">Gatos</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li ><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Pet Company</h1>
+            <div class="text">
+                <p>
+                    ¡Bienvenidos a nuestra tienda de mascotas! Aquí encontrarás todo lo que tu amigo peludo o plumoso necesita para vivir feliz y saludable. Ofrecemos una amplia variedad de productos para perros, gatos y animales exóticos: desde comida de alta calidad hasta juguetes y accesorios únicos. Nuestro compromiso es brindar lo mejor para tus compañeros, porque sabemos que ellos merecen lo mejor. ¡Ven y descubre todo lo que tenemos para ofrecer!
+                </p>
+            </div>
+            <div class="btns">
+                <button>Leer Más</button>
+                <button>Contactanos</button>
             </div>
         </div>
-
-        <div class="dropdown_menu">
-            <li><a href="ofertas">Ofertas</a></li>
-            <li><a href="perros">Perros</a></li>
-            <li><a href="gatos">Gatos</a></li>
-            <li><a href="accesorios">Accesorios</a></li>
-            <li><a href="contacto">Contacto</a></li>
-            <a href="#" class="action_btn">Inicio Sesion</a>
-
-        </div>
-    </header>
-
-    <section class="bienvenida">
-        <h1>Bienvenidos a Pet Company</h1>
-        <p> En nuestro sitio, encontrarás todo lo que necesitas para consentir a tus mascotas y mantenerlas felices y saludables. <br />
-            Desde alimentos nutritivos y deliciosos hasta juguetes divertidos y accesorios esenciales, en Pet Company nos dedicamos a ofrecer productos de alta calidad para perros, gatos y otras mascotas. Explora nuestra amplia gama y descubre cómo podemos ayudarte a darle a tu compañero peludo lo mejor. <span>¡Tu mascota lo merece!</span></p>
-    </section>
-
-
-    <footer>
-        <button>Contáctanos</button>
-        <p>&copy; 2023 All rights reserved.</p>
-    </footer>
-
-
-
-    <script src="script.js"></script>
+    </div>
 </body>
 </html>
